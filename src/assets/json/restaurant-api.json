@@ -1,0 +1,404 @@
+[
+    {
+        "restaurant_name": "Om di Hatti",
+        "restaurant_rating": 4.1,
+        "restaurant_location": "Kamla Nagar, Delhi",
+        "restaurant_cuisine": "South Indian, Desserts, North Indian, Streat Food, Snacks",
+        "restaurant_images": "assets/images/om-di-hatti.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Bille di Hatti",
+        "restaurant_rating": 4,
+        "restaurant_location": "Saket, Delhi",
+        "restaurant_cuisine": "Street Food, Snacks, North Indian",
+        "restaurant_images": "assets/images/bille-di-hatti.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Biryani By Kilo",
+        "restaurant_rating": 4.5,
+        "restaurant_location": "Civil lines, Delhi",
+        "restaurant_cuisine": "North Indian",
+        "restaurant_images": "assets/images/biryani-by-kilo.avif",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Egg Dum Biryani",
+                "item_description": "Eggs are marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the handi. Each biryani order is individually cooked in hand made clay handi and served to you in the same earthenware. BBK biryani is layered, and Masala is at bottom of Handi. To enjoy authentic flavours mix it well.",
+                "item_price": 379,
+                "item_images": "assets/images/egg-dum-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Bangla Sweet House",
+        "restaurant_rating": 4.1,
+        "restaurant_location": "Timarpur, Delhi",
+        "restaurant_cuisine": "Sweets",
+        "restaurant_images": "assets/images/bangla-sweet-house.avif",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Sarvana bhawan",
+        "restaurant_rating": 4.9,
+        "restaurant_location": "CP, Delhi",
+        "restaurant_cuisine": "South Indian",
+        "restaurant_images": "assets/images/sarvana-bhawan.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Dana Choga",
+        "restaurant_rating": 4.2,
+        "restaurant_location": "Chandni chauk, Delhi",
+        "restaurant_cuisine": "Rajanthani",
+        "restaurant_images": "assets/images/dana-choga.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Nirula's",
+        "restaurant_rating": 4.6,
+        "restaurant_location": "Noida",
+        "restaurant_cuisine": "South Indian",
+        "restaurant_images": "assets/images/nirulas.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Khan Chacha",
+        "restaurant_rating": 3.4,
+        "restaurant_location": "Wajeerabad, Delhi",
+        "restaurant_cuisine": "Panjabi",
+        "restaurant_images": "assets/images/khan-chacha.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Jain Chawal Wale",
+        "restaurant_rating": 4.2,
+        "restaurant_location": "CP, Delhi",
+        "restaurant_cuisine": "South Indian",
+        "restaurant_images": "assets/images/jain-chawal-wale.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    },
+    {
+        "restaurant_name": "Kaleva",
+        "restaurant_rating": 4.9,
+        "restaurant_location": "CP, Delhi",
+        "restaurant_cuisine": "South Indian",
+        "restaurant_images": "assets/images/Kaleva.jpg",
+        "menu_items": [
+            {
+                "item_name": "Chicken 65 Biryani",
+                "item_description": "Spicy and tangy flavors of Chicken 65 marinated in a mixture of freshly ground BBK spices & layered with long grain basmati rice in the handi and slow cooked in the sealed handi",
+                "item_price": 399,
+                "item_images": "assets/images/chicken-biryani.jpg",
+                "isPureVeg": false,
+                "cuisine-type": "North Indian"
+            },
+            {
+                "item_name": "Chole Bhature",
+                "item_description": "A spicy and mouth-watering punjabi delicacy deep fried all purpose flour puris served with curried chickpeas",
+                "item_price": 125,
+                "item_images": "assets/images/chole-bhature.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Aloo Samosa (1 Pc)",
+                "item_description": "Small sized samosas with spicy dal filling served with green mint sauce.",
+                "item_price": 15,
+                "item_images": "assets/images/aloo-samosa.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Snacks"
+            },
+            {
+                "item_name": "Gulab Jamun (2pc)",
+                "item_description": "This delicious sweet treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and then soaked in a sugar syrup made with rose water",
+                "item_price": 45,
+                "item_images": "assets/images/gulab-jamun.jpg",
+                "isPureVeg": true,
+                "cuisine-type": "Desserts"
+            }
+        ]
+    }
+]

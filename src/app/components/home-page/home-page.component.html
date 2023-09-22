@@ -1,0 +1,26 @@
+<div class="container mt-2 main">
+    <h1>Restaurants with online food delivery</h1>
+    <div class="main__custom-card">
+        <div class="main__custom-card__single-card" *ngFor="let data of restaurantData; let index = index">
+            <div class="main__custom-card__single-card__body" routerLinkActive="active"
+                routerLink="{{'/restaurant' | urlPrettier}}"
+                [queryParams]="{restaurant:data.restaurant_name, id: index}">
+                <span class="text-center main__custom-card__single-card__body__image">
+                    <img [src]="data.restaurant_images" class="main__custom-card__single-card__body__image__img">
+                </span>
+                <span class="main__custom-card__single-card__body__info">
+                    <span class="main__custom-card__single-card__body__info__res-name">{{data.restaurant_name}}</span>
+                    <span
+                        class="main__custom-card__single-card__body__info__res-rating">{{data.restaurant_rating}}⭐</span>
+                </span>
+                <span class="main__custom-card__single-card__body__cuisine">
+                    {{data.restaurant_cuisine}}
+                </span>
+                <span class="main__custom-card__single-card__body__location">
+                    {{data.restaurant_location}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

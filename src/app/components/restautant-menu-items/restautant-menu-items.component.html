@@ -1,0 +1,24 @@
+<div class="menu-items">
+    <span class="menu-items__head">
+        <span class="menu-items__head__res-name">{{restaurantMenuData.restaurant_name}}</span>
+        <span class="menu-items__head__res-rating">{{restaurantMenuData.restaurant_rating}}⭐</span>
+    </span>
+    <span class="menu-items__res-location">{{restaurantMenuData.restaurant_location}}</span>
+    <div class="menu-items__item" *ngFor="let data of restaurantMenuData.menu_items">
+        <div class="menu-items__item__left">
+            <img *ngIf="data.isPureVeg" src="assets/images/pure-veg.png" style="height: 2rem;">
+            <img *ngIf="!data.isPureVeg" src="assets/images/non-veg.png" style="height: 2rem;">
+            <span class="menu-items__item__left__name">{{data.item_name }}</span>
+            <span class="menu-items__item__left__price">₹{{data.item_price }}</span>
+            <span class="menu-items__item__left__description">{{data.item_description }}</span>
+        </div>
+        <div class="menu-items__item__right">
+            <img class="menu-items__item__right__img" [src]="data.item_images" />
+        </div>
+        <span class="menu-items__item__add-item" (click)="addToCart(data.item_price)">Add to cart</span>
+    </div>
+    <div class="menu-items__cart">
+        <span>Total Amount: {{totalCartAmount}}</span>
+        <span class="menu-items__cart__go-to-cart" (click)="goToCart()">Go to cart</span>
+    </div>
+</div>

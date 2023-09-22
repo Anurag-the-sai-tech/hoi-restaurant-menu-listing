@@ -1,0 +1,24 @@
+.checkout {
+  padding: 2rem 5rem;
+  display: grid;
+  gap: 10px;
+  font-size: 40px;
+  &__head {
+    display: flex;
+  }
+  &__pay-now {
+    background: black;
+    color: white;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-left: auto;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 668px) {
+  .checkout__head {
+    display: grid;
+  }
+}
